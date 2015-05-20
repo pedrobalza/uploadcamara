@@ -20,21 +20,24 @@
 			<script src="js/script.js" 
 					type="text/javascript">
 			</script>
-
+	<style>
+    #myImage{
+	max-width:100%;
+	height:auto;
+		
+	}
+    
+    </style>
   </head>
   <body>
-    <div data-role="page" id="camara"> 
+    <div data-role="page" id="camera"> 
 		<div data-role="header" data-position="fixed">
 			<h1>Camara</h1>
 		</div> 
 		<div data-role="content">
-		
-				<div id="compass_text">Pulse el botón Start...</div>
-				
-				<a id="startBtn" data-role="button">Start</a>
-				<a id="stopBtn" data-role="button">Stop</a>
-				
-				<div id="arrow"><img src="img/round_arrow_right.png"></div>
+		<button id="startBtn">Sacar foto</button>
+       <p id="mensaje"></p>
+        <img id="myImage">
 		</div> 
 	</div>
   </body>
